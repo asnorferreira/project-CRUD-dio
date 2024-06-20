@@ -1,0 +1,22 @@
+spring.application.name=jpa
+
+# Configurações JPA
+spring.jpa.show-sql=
+spring.jpa.hibernate.ddl-auto=
+
+# Configurações do Datasource (PostgreSQL)
+spring.datasource.driverClassName=
+spring.datasource.url=
+spring.datasource.username=
+spring.datasource.password=
+spring.jpa.database-platform=
+
+# Configurações de JWT
+jpa.config.prefix=
+jpa.config.key=
+jpa.config.expiration=
+
+# Porta do servidor
+server.port=
+
+error.server=
