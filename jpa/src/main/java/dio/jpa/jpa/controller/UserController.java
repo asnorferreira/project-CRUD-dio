@@ -20,7 +20,7 @@ public class UserController {
     @Autowired
     private UserService userService;
 
-    @PostMapping("/register")
+    @PostMapping
     public ResponseEntity<?> registerUser(@RequestBody UserDto userDto) {
         try {
             User user = userService.registerNewUser(userDto);
